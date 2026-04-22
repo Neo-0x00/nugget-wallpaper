@@ -4,12 +4,10 @@ on:
   push:
     branches:
       - main
-    tags:
-      - "v*.*.*"
   workflow_dispatch:
 
 env:
-  IMAGE_NAME: nugget-wallpaper
+  IMAGE_NAME: click-nugget-wallpaper
 
 jobs:
   docker:
@@ -41,10 +39,10 @@ jobs:
             type=sha,prefix=sha-
             type=ref,event=tag
           labels: |
-            org.opencontainers.image.title=Nugget Wallpaper GitHub Pages
-            org.opencontainers.image.description=Nugget 中文社区动态交互壁纸库 GitHub Pages 静态索引页
+            org.opencontainers.image.title=Nugget 交互壁纸库
+            org.opencontainers.image.description=Apple 交互壁纸库
             org.opencontainers.image.url=https://neo-0x00.github.io/nugget-wallpaper/
-            org.opencontainers.image.documentation=https://nugget.click
+            org.opencontainers.image.documentation=https://wallpaper.nugget.click
 
       - name: Build and push
         uses: docker/build-push-action@v6
@@ -63,5 +61,5 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
           repository: ${{ secrets.DOCKERHUB_USERNAME }}/${{ env.IMAGE_NAME }}
-          short-description: Nugget 中文社区动态交互壁纸库 GitHub Pages 静态索引页
+          short-description: 苹果动态交互壁纸库
           readme-filepath: README.md
