@@ -1,0 +1,26 @@
+{
+  "name": "Nugget 动态交互壁纸库",
+  "short_name": "Nugget 壁纸",
+  "description": "Nugget 中文社区动态交互壁纸索引，聚合 iOS、iPadOS 动态壁纸、视频壁纸、Live Photo 壁纸和 Nugget 模板。",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#101412",
+  "theme_color": "#101412",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "favicon/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["entertainment", "photo", "personalization"],
+  "lang": "zh-CN",
+  "dir": "ltr"
+}

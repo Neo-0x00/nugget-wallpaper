@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+Disallow: /temp.html
+Disallow: /*.tmp$
+Disallow: /*.log$
+Disallow: /*.bak$
+
+Sitemap: https://neo-0x00.github.io/nugget-wallpaper/sitemap.xml
