@@ -42,7 +42,7 @@ jobs:
             org.opencontainers.image.title=Nugget 交互壁纸库
             org.opencontainers.image.description=Apple 交互壁纸库
             org.opencontainers.image.url=https://neo-0x00.github.io/nugget-wallpaper/
-            org.opencontainers.image.documentation=https://wallpaper.nugget.click
+            org.opencontainers.image.documentation=https://191.bz
 
       - name: Build and push
         uses: docker/build-push-action@v6

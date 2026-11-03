@@ -5,7 +5,7 @@
 你可以从这里快速进入官方社区和交互壁纸库：
 
 - Nugget 中文社区官网：[https://nugget.click](https://nugget.click)
-- Nugget 交互壁纸库：[https://wallpaper.nugget.click](https://wallpaper.nugget.click)
+- Nugget 交互壁纸库：[https://191.bz](https://191.bz)
 - GitHub Pages 页面：[https://neo-0x00.github.io/nugget-wallpaper/](https://neo-0x00.github.io/nugget-wallpaper/)
 
 ## 这里有什么
